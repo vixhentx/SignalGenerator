@@ -5,7 +5,7 @@
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 1u 100m 0 1u",
+        ".tran 1u 200m 0 1u",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -24,6 +24,11 @@
         {
           "color": "rgb(55, 126, 184)",
           "signal": "V(/Vsin)",
+          "trace_type": 1
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/Vsquare)",
           "trace_type": 1
         }
       ]
