@@ -669,7 +669,7 @@
         "uuid": "09862f4d-ffc6-478c-b540-8c07adda5603"
       }
     ],
-    "used_designators": "U1-2,R1-9,C1-4,D1-4,RV1,SW1-2,#PWR1-9,V1-3",
+    "used_designators": "U1-2,R1-17,C1-4,D1-4,RV1,SW1-2,#PWR1-13,V1-3",
     "variants": []
   },
   "sheets": [
@@ -684,6 +684,14 @@
     [
       "be9b9bd2-6a2f-4a69-8525-532ac95ae638",
       "SquareGenerator"
+    ],
+    [
+      "b97e0a78-41c9-4162-a583-db19a6ed593d",
+      "TriangleGenerator"
+    ],
+    [
+      "4d3129fc-4657-4104-ac71-55d690376724",
+      "Scaling"
     ]
   ],
   "text_variables": {},
