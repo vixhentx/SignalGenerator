@@ -669,7 +669,7 @@
         "uuid": "09862f4d-ffc6-478c-b540-8c07adda5603"
       }
     ],
-    "used_designators": "U1-2,R1-6,C1-4,D1-2,RV1,SW1-2,#PWR1-9,V1-3",
+    "used_designators": "U1-2,R1-9,C1-4,D1-4,RV1,SW1-2,#PWR1-9,V1-3",
     "variants": []
   },
   "sheets": [
@@ -680,6 +680,10 @@
     [
       "e815e7b2-2ed1-485e-bf81-dbe722a14a4e",
       "SinGenerator"
+    ],
+    [
+      "be9b9bd2-6a2f-4a69-8525-532ac95ae638",
+      "SquareGenerator"
     ]
   ],
   "text_variables": {},

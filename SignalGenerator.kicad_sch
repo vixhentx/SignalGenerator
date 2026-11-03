@@ -1375,16 +1375,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 128.27) (xy 69.85 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "193906fc-70c3-4fff-96a4-6c28807ed350")
-	)
-	(wire
-		(pts
 			(xy 107.95 59.69) (xy 113.03 59.69)
 		)
 		(stroke
@@ -1435,16 +1425,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 130.81) (xy 45.72 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5580af02-bf2c-4671-b9d0-c71be176637c")
-	)
-	(wire
-		(pts
 			(xy 33.02 151.13) (xy 33.02 152.4)
 		)
 		(stroke
@@ -1465,33 +1445,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 119.38) (xy 45.72 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6983073f-ce3d-4cd8-9489-cc56737e5373")
-	)
-	(wire
-		(pts
-			(xy 107.95 36.83) (xy 113.03 36.83)
+			(xy 107.95 36.83) (xy 148.59 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6d1c4d07-4311-4dfc-b7b5-19c5f1df3b8c")
-	)
-	(wire
-		(pts
-			(xy 45.72 130.81) (xy 45.72 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7109960d-51ac-4297-ac43-c20c6f1b1948")
 	)
 	(wire
 		(pts
@@ -1505,13 +1465,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 128.27) (xy 69.85 128.27)
+			(xy 166.37 36.83) (xy 172.72 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9514ffed-1dff-4fe0-a26c-f4deabea9d5e")
+		(uuid "7eeaf69d-4cd2-4cff-8ffa-bf29f7634f1f")
 	)
 	(wire
 		(pts
@@ -1625,16 +1585,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 119.38) (xy 45.72 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceb07d07-81c1-4819-8d90-5e763f713d0e")
-	)
-	(wire
-		(pts
 			(xy 43.18 81.28) (xy 34.29 81.28)
 		)
 		(stroke
@@ -1642,16 +1592,6 @@
 			(type default)
 		)
 		(uuid "d791fd21-a176-428d-b86c-8f091793373d")
-	)
-	(wire
-		(pts
-			(xy 45.72 125.73) (xy 49.53 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8a13ea4-2dd5-4163-b076-40d3676d4163")
 	)
 	(wire
 		(pts
@@ -1702,6 +1642,16 @@
 			(justify left bottom)
 		)
 		(uuid "b066468f-5e4b-42af-8f33-2e8227016728")
+	)
+	(label "V_{square}"
+		(at 172.72 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b373e033-466e-40d8-982c-0fb8d0510410")
 	)
 	(symbol
 		(lib_id "Device:R_Variable")
@@ -2106,84 +2056,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 45.72 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61cc7c07-aec9-4048-baa7-bd2929adaa24")
-		(property "Reference" "#PWR08"
-			(at 45.72 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 45.72 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
-			(at 45.72 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3d9bc6ee-0816-40e0-bbc5-14a7f3bb1d77")
-		)
-		(instances
-			(project "SignalGenerator"
-				(path "/09862f4d-ffc6-478c-b540-8c07adda5603"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:VDC")
 		(at 21.59 157.48 0)
 		(unit 1)
@@ -2536,148 +2408,6 @@
 				(path "/09862f4d-ffc6-478c-b540-8c07adda5603"
 					(reference "R2")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Local:MC4558")
-		(at 57.15 128.27 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "beb9a8ee-6f8c-4409-813b-803630a2aa40")
-		(property "Reference" "U1"
-			(at 57.15 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MC4558"
-			(at 57.15 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/mc4558.pdf"
-			(at 57.15 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"
-			(at 57.15 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" "Spice/mc4558.lib"
-			(at 57.15 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Name" "MC4558_DUAL"
-			(at 57.15 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 57.15 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8"
-			(at 57.15 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "3409f347-ecab-4f5a-8878-cc2727d1362a")
-		)
-		(pin "1"
-			(uuid "9ad7333a-b2b3-4494-b251-3fefcd1f8a64")
-		)
-		(pin "4"
-			(uuid "a3f6aa9b-b81b-4407-ac7b-f0125fa54b5b")
-		)
-		(pin "8"
-			(uuid "8c76659d-bd98-40dd-85a0-94f4475ddc4d")
-		)
-		(pin "3"
-			(uuid "367b6f5d-9c93-4bb2-9d00-c55207a492d4")
-		)
-		(pin "2"
-			(uuid "8aaa3fee-47e7-47f6-9c8d-36d1c09f5cc1")
-		)
-		(pin "7"
-			(uuid "5c7e42f3-f7df-4592-9496-74452eb4be5a")
-		)
-		(pin "6"
-			(uuid "f1ef5d10-f244-44fc-8b57-b757a19f7641")
-		)
-		(instances
-			(project "SignalGenerator"
-				(path "/09862f4d-ffc6-478c-b540-8c07adda5603"
-					(reference "U1")
-					(unit 2)
 				)
 			)
 		)
@@ -3254,6 +2984,72 @@
 				(path "/09862f4d-ffc6-478c-b540-8c07adda5603"
 					(reference "#PWR05")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 29.21)
+		(size 17.78 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "be9b9bd2-6a2f-4a69-8525-532ac95ae638")
+		(property "Sheetname" "SquareGenerator"
+			(at 148.59 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "square_generator.kicad_sch"
+			(at 148.59 47.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_{i}" input
+			(at 148.59 36.83 180)
+			(uuid "3a3570b3-e1c5-4465-93bd-2d58b6302ccd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_{o}" input
+			(at 166.37 36.83 0)
+			(uuid "6076ebab-c388-4677-97e6-ddebf66fce45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SignalGenerator"
+				(path "/09862f4d-ffc6-478c-b540-8c07adda5603"
+					(page "3")
 				)
 			)
 		)
