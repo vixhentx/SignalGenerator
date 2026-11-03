@@ -1683,7 +1683,7 @@
 		)
 		(uuid "4f8e3fb6-97a5-4a51-b50c-98d6a1ad9870")
 	)
-	(label "V_{square}"
+	(label "V_{sin}"
 		(at 113.03 36.83 0)
 		(effects
 			(font
@@ -3274,7 +3274,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "e815e7b2-2ed1-485e-bf81-dbe722a14a4e")
-		(property "Sheetname" "SquareGenerator"
+		(property "Sheetname" "SinGenerator"
 			(at 43.18 27.2284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3285,7 +3285,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "square_generator.kicad_sch"
+		(property "Sheetfile" "sin_generator.kicad_sch"
 			(at 43.18 85.6746 0)
 			(show_name no)
 			(do_not_autoplace no)
