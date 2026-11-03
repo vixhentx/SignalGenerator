@@ -1,0 +1,156 @@
+( { EESchema Netlist Version 1.1 created  2026-11-03T22:12:05 }
+ ( /23731bb6-454b-4692-a9f6-57bcbb410b3f Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal  R3 10k
+  (    1 GND )
+  (    2 Net-(R3-Pad2) )
+ )
+ ( /9c7a138d-c6dc-4b84-a3fc-a89a1e849db3 Package_DIP:DIP-8_W7.62mm  U2 MC4558
+  (    1 Net-(R12-Pad1) )
+  (    2 Net-(U2A--) )
+  (    3 Net-(U2A-+) )
+  (    4 -15V )
+  (    5 Net-(U2B-+) )
+  (    6 Net-(U2B--) )
+  (    7 Net-(R15-Pad1) )
+  (    8 +15V )
+ )
+ ( /c0bce9f9-879c-468a-bf28-39407352c20e Package_DIP:DIP-8_W7.62mm  U1 MC4558
+  (    1 Net-(R6-Pad1) )
+  (    2 Net-(U1A--) )
+  (    3 /SinGenerator/CF1_A )
+  (    4 -15V )
+  (    5 Net-(U1B-+) )
+  (    6 Net-(U1B--) )
+  (    7 Net-(R9-Pad1) )
+  (    8 +15V )
+ )
+ ( /c8e69238-cf22-4b12-92d1-5dcac61a1e39 Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile  SW1 SW_DIP_x04
+  (    1 Net-(R3-Pad2) )
+  (    2 /V_{sin} )
+  (    3 /V_{square} )
+  (    4 /V_{tri} )
+  (    5 /Scaling/V_{i} )
+  (    6 /Scaling/V_{i} )
+  (    7 /Scaling/V_{i} )
+  (    8 /Scaling/V_{i} )
+ )
+ ( /e815e7b2-2ed1-485e-bf81-dbe722a14a4e/0785d738-b89c-4d96-a14e-b38895dea910 Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm  C6 5.1n
+  (    1 Net-(C6-Pad1) )
+  (    2 /V_{sin} )
+ )
+ ( /e815e7b2-2ed1-485e-bf81-dbe722a14a4e/162aea5c-22f3-44d0-ac38-7dcb6d824b60 Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal  R6 330
+  (    1 Net-(R6-Pad1) )
+  (    2 /V_{sin} )
+ )
+ ( /e815e7b2-2ed1-485e-bf81-dbe722a14a4e/24d9bddd-b8f9-4949-9e64-8d6e625fd5bc Potentiometer_THT:Potentiometer_Alps_RK163_Dual_Horizontal  RV2 150k
+  (    1 unconnected-(RV2-Pad1) )
+  (    2 GND )
+  (    3 Net-(R2-Pad1) )
+  (    4 unconnected-(RV2-Pad4) )
+  (    5 /SinGenerator/CF1_A )
+  (    6 Net-(R1-Pad1) )
+ )
+ ( /e815e7b2-2ed1-485e-bf81-dbe722a14a4e/36e19772-a22c-4ac1-9add-b0bbca1ceca9 Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical  RV1 100k
+  (    1 GND )
+  (    2 Net-(U1A--) )
+  (    3 Net-(D1-K) )
+ )
+ ( /e815e7b2-2ed1-485e-bf81-dbe722a14a4e/51b524be-1b31-48ed-b3de-68d20041e6f0 Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal  R5 100k
+  (    1 Net-(D1-K) )
+  (    2 /V_{sin} )
+ )
+ ( /e815e7b2-2ed1-485e-bf81-dbe722a14a4e/6468ad1c-1cf6-4d71-835e-9ca15b5f347b Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal  D2 1N4001
+  (    1 /V_{sin} )
+  (    2 Net-(D1-K) )
+ )
+ ( /e815e7b2-2ed1-485e-bf81-dbe722a14a4e/78a7eb01-d0b4-4144-81db-6f7f96c828b0 Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm  C5 5.1n
+  (    1 Net-(C5-Pad1) )
+  (    2 /SinGenerator/CF1_A )
+ )
+ ( /e815e7b2-2ed1-485e-bf81-dbe722a14a4e/7b0fa9cc-1c58-40f3-9533-54d008effe7b Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm  C4 51n
+  (    1 Net-(C4-Pad1) )
+  (    2 /V_{sin} )
+ )
+ ( /e815e7b2-2ed1-485e-bf81-dbe722a14a4e/7c4f4006-7f65-47db-b1dd-b18c8896ade7 Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile  SW2 SW_DIP_x04
+  (    1 GND )
+  (    2 GND )
+  (    3 /SinGenerator/CF2_A )
+  (    4 /SinGenerator/CF2_A )
+  (    5 Net-(C4-Pad1) )
+  (    6 Net-(C6-Pad1) )
+  (    7 Net-(C3-Pad1) )
+  (    8 Net-(C5-Pad1) )
+ )
+ ( /e815e7b2-2ed1-485e-bf81-dbe722a14a4e/9dbd363d-af71-42e1-b10c-e2eb94c7c30c Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm  C3 51n
+  (    1 Net-(C3-Pad1) )
+  (    2 /SinGenerator/CF1_A )
+ )
+ ( /e815e7b2-2ed1-485e-bf81-dbe722a14a4e/ba180e60-78d8-4ec9-a6aa-e15146650906 Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal  D1 1N4001
+  (    1 Net-(D1-K) )
+  (    2 /V_{sin} )
+ )
+ ( /e815e7b2-2ed1-485e-bf81-dbe722a14a4e/e25b1974-2b7e-4258-80a9-7718928dc942 Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal  R2 1.5k
+  (    1 Net-(R2-Pad1) )
+  (    2 /SinGenerator/CF1_A )
+ )
+ ( /e815e7b2-2ed1-485e-bf81-dbe722a14a4e/f70b6f08-5c58-4790-a00e-573adc80b1a3 Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal  R1 1.5k
+  (    1 Net-(R1-Pad1) )
+  (    2 /SinGenerator/CF2_A )
+ )
+ ( /be9b9bd2-6a2f-4a69-8525-532ac95ae638/016ee304-461c-436e-b530-0ab1f5697df8 Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal  R7 10k
+  (    1 /V_{sin} )
+  (    2 Net-(U1B-+) )
+ )
+ ( /be9b9bd2-6a2f-4a69-8525-532ac95ae638/1d92a232-d2b7-43b1-b1db-49d23537c6ee Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal  D4 1N4734
+  (    1 Net-(D3-K) )
+  (    2 GND )
+ )
+ ( /be9b9bd2-6a2f-4a69-8525-532ac95ae638/2013f500-cfa7-478b-8c2f-ed2f1457c7fe Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal  R9 330
+  (    1 Net-(R9-Pad1) )
+  (    2 /V_{square} )
+ )
+ ( /be9b9bd2-6a2f-4a69-8525-532ac95ae638/79bc3a32-2216-44a9-8538-21051b97e630 Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal  R8 10k
+  (    1 GND )
+  (    2 Net-(U1B--) )
+ )
+ ( /be9b9bd2-6a2f-4a69-8525-532ac95ae638/d53f9bd5-3529-4556-b59b-379530337eda Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal  D3 1N4734
+  (    1 Net-(D3-K) )
+  (    2 /V_{square} )
+ )
+ ( /b97e0a78-41c9-4162-a583-db19a6ed593d/0c73cfcc-522e-4bab-8577-dffcc177397b Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal  R13 5.6k
+  (    1 GND )
+  (    2 Net-(U2B-+) )
+ )
+ ( /b97e0a78-41c9-4162-a583-db19a6ed593d/16f6d93f-8cf8-465b-a8bb-42fef7b68bd2 Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal  R16 100k
+  (    1 Net-(U2B--) )
+  (    2 /V_{tri} )
+ )
+ ( /b97e0a78-41c9-4162-a583-db19a6ed593d/52e9a3d1-a2f4-4a96-829b-d8b038f2d419 Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm  C2 82n
+  (    1 Net-(U2B--) )
+  (    2 /V_{tri} )
+ )
+ ( /b97e0a78-41c9-4162-a583-db19a6ed593d/6dec60e1-ca72-47d5-befa-6026e907ccc2 Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal  R15 330
+  (    1 Net-(R15-Pad1) )
+  (    2 /V_{tri} )
+ )
+ ( /b97e0a78-41c9-4162-a583-db19a6ed593d/efff9712-cc84-4d93-bc02-aa919dbc67b6 Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal  R14 100k
+  (    1 /V_{square} )
+  (    2 Net-(U2B--) )
+ )
+ ( /4d3129fc-4657-4104-ac71-55d690376724/5fb43c3b-460b-4f22-ab65-992d035388e0 Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal  R10 5.6k
+  (    1 GND )
+  (    2 Net-(U2A-+) )
+ )
+ ( /4d3129fc-4657-4104-ac71-55d690376724/a7d3cc57-aecc-4ffe-9b10-ac3abe58976b Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal  R12 330
+  (    1 Net-(R12-Pad1) )
+  (    2 /V_{out} )
+ )
+ ( /4d3129fc-4657-4104-ac71-55d690376724/f51cd363-3d36-40a8-841f-d4af594b8bb1 Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal  R11 10k
+  (    1 /Scaling/V_{i} )
+  (    2 Net-(U2A--) )
+ )
+ ( /4d3129fc-4657-4104-ac71-55d690376724/fdbf870a-ff55-4797-a07d-afe9aa9af287 Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal  R17 10k
+  (    1 Net-(U2A--) )
+  (    2 /V_{out} )
+ )
+)
+*
