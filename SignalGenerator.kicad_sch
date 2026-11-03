@@ -3669,7 +3669,7 @@
 				(justify left)
 			)
 		)
-		(pin "V_{o}" input
+		(pin "V_{o}" output
 			(at 147.32 36.83 0)
 			(uuid "6076ebab-c388-4677-97e6-ddebf66fce45")
 			(effects
@@ -3725,7 +3725,7 @@
 				(justify left top)
 			)
 		)
-		(pin "V_{o}" input
+		(pin "V_{o}" output
 			(at 107.95 36.83 0)
 			(uuid "4f5c28e9-2fde-4e23-901d-83f1f035b07f")
 			(effects
@@ -3735,7 +3735,7 @@
 				(justify right)
 			)
 		)
-		(pin "CF1_{A}" input
+		(pin "CF1_{A}" passive
 			(at 107.95 49.53 0)
 			(uuid "6eb3f177-5f7c-482f-b1fb-154a0d187ad0")
 			(effects
@@ -3745,7 +3745,7 @@
 				(justify right)
 			)
 		)
-		(pin "CF1_{B}" input
+		(pin "CF1_{B}" passive
 			(at 107.95 59.69 0)
 			(uuid "a15ccc43-eccf-4251-a767-7c3813881db6")
 			(effects
@@ -3755,7 +3755,7 @@
 				(justify right)
 			)
 		)
-		(pin "CF2_{A}" input
+		(pin "CF2_{A}" passive
 			(at 107.95 69.85 0)
 			(uuid "dfc63522-1bfd-4873-940c-674cfc7c1760")
 			(effects
@@ -3765,7 +3765,7 @@
 				(justify right)
 			)
 		)
-		(pin "CF2_{B}" input
+		(pin "CF2_{B}" passive
 			(at 107.95 80.01 0)
 			(uuid "3905dff4-8d93-44bd-8807-6022528d1558")
 			(effects
@@ -3775,7 +3775,7 @@
 				(justify right)
 			)
 		)
-		(pin "RF_{BOT}" input
+		(pin "RF_{BOT}" passive
 			(at 43.18 52.07 180)
 			(uuid "93458866-6322-4867-a9c3-397fb978b809")
 			(effects
@@ -3785,7 +3785,7 @@
 				(justify left)
 			)
 		)
-		(pin "RF_{TOP}" input
+		(pin "RF_{TOP}" passive
 			(at 43.18 31.75 180)
 			(uuid "b09cef52-a9cb-4743-b15b-98f9548ac235")
 			(effects
@@ -3795,7 +3795,7 @@
 				(justify left)
 			)
 		)
-		(pin "RG_{BOT}" input
+		(pin "RG_{BOT}" passive
 			(at 43.18 59.69 180)
 			(uuid "f173f7a2-98eb-478d-93b5-baea89463576")
 			(effects
@@ -3805,7 +3805,7 @@
 				(justify left)
 			)
 		)
-		(pin "RG_{TOP}" input
+		(pin "RG_{TOP}" passive
 			(at 43.18 81.28 180)
 			(uuid "ade51140-5227-43f4-a3f3-dd425a471c5f")
 			(effects

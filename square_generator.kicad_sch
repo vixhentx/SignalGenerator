@@ -915,7 +915,7 @@
 		(uuid "64d64d12-9f3f-48a3-b834-ccbe37ccb99e")
 	)
 	(hierarchical_label "V_{o}"
-		(shape input)
+		(shape output)
 		(at 166.37 86.36 0)
 		(effects
 			(font

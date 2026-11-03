@@ -1018,6 +1018,12 @@
 		(uuid "19c5374a-5ae9-48ca-965c-f5978a428c72")
 	)
 	(junction
+		(at 82.55 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e78a36e-dfb9-424a-b14b-b7ffd032ac03")
+	)
+	(junction
 		(at 104.14 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1034,12 +1040,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a49064a1-af7f-416d-802f-c202f91257f1")
-	)
-	(junction
-		(at 82.55 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad39f311-94b3-413d-a67e-1c861ce4164a")
 	)
 	(junction
 		(at 104.14 118.11)
@@ -1105,6 +1105,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 110.49) (xy 82.55 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30540835-3504-4234-bef6-fb495bec453b")
+	)
+	(wire
+		(pts
 			(xy 82.55 91.44) (xy 139.7 91.44)
 		)
 		(stroke
@@ -1152,16 +1162,6 @@
 			(type default)
 		)
 		(uuid "406f6dd5-ef66-41b7-922f-d659a63c9cac")
-	)
-	(wire
-		(pts
-			(xy 82.55 115.57) (xy 82.55 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bceb45c-3216-4871-bbf8-2dba14404ede")
 	)
 	(wire
 		(pts
@@ -1343,18 +1343,8 @@
 		)
 		(uuid "ed079207-0f53-4454-8eeb-96d8388eaf8c")
 	)
-	(wire
-		(pts
-			(xy 82.55 110.49) (xy 82.55 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f86c1ee7-82a0-4e8f-9167-01adf1e80f0e")
-	)
 	(hierarchical_label "RG_{TOP}"
-		(shape input)
+		(shape passive)
 		(at 82.55 95.25 0)
 		(effects
 			(font
@@ -1365,7 +1355,7 @@
 		(uuid "43f9d8a3-0743-41b2-9dda-ed9132535799")
 	)
 	(hierarchical_label "RG_{BOT}"
-		(shape input)
+		(shape passive)
 		(at 82.55 110.49 0)
 		(effects
 			(font
@@ -1376,7 +1366,7 @@
 		(uuid "5c40e119-2690-4672-813d-22f4acd0d505")
 	)
 	(hierarchical_label "CF2_{B}"
-		(shape input)
+		(shape passive)
 		(at 171.45 74.93 0)
 		(effects
 			(font
@@ -1387,7 +1377,7 @@
 		(uuid "68796dba-ac78-4dd8-89bd-84185b1c1916")
 	)
 	(hierarchical_label "RF_{BOT}"
-		(shape input)
+		(shape passive)
 		(at 82.55 85.09 0)
 		(effects
 			(font
@@ -1398,7 +1388,7 @@
 		(uuid "94153bee-5ded-4e62-b413-1572dc90595b")
 	)
 	(hierarchical_label "RF_{TOP}"
-		(shape input)
+		(shape passive)
 		(at 82.55 67.31 0)
 		(effects
 			(font
@@ -1409,7 +1399,7 @@
 		(uuid "aba967ef-5acd-4338-9a6c-ec812f2a3ff2")
 	)
 	(hierarchical_label "V_{o}"
-		(shape input)
+		(shape output)
 		(at 176.53 93.98 0)
 		(effects
 			(font
@@ -1420,7 +1410,7 @@
 		(uuid "ae188666-d68e-4782-9aa5-dc7ffefede02")
 	)
 	(hierarchical_label "CF2_{A}"
-		(shape input)
+		(shape passive)
 		(at 171.45 67.31 0)
 		(effects
 			(font
@@ -1431,7 +1421,7 @@
 		(uuid "bec531d4-9213-4234-8c62-992d20022842")
 	)
 	(hierarchical_label "CF1_{B}"
-		(shape input)
+		(shape passive)
 		(at 104.14 111.76 0)
 		(effects
 			(font
@@ -1442,7 +1432,7 @@
 		(uuid "c3dc40ab-1a98-4e8f-97c8-8ee89dabea61")
 	)
 	(hierarchical_label "CF1_{A}"
-		(shape input)
+		(shape passive)
 		(at 104.14 104.14 0)
 		(effects
 			(font
@@ -2006,7 +1996,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 115.57 0)
+		(at 82.55 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2017,7 +2007,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4a41cb5-fda0-4c43-b52a-a0ced460e9e2")
 		(property "Reference" "#PWR01"
-			(at 82.55 121.92 0)
+			(at 82.55 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2028,7 +2018,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 120.65 0)
+			(at 82.55 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2038,7 +2028,7 @@
 			)
 		)
 		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
-			(at 82.55 115.57 0)
+			(at 82.55 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2049,7 +2039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 115.57 0)
+			(at 82.55 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2060,7 +2050,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 115.57 0)
+			(at 82.55 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
