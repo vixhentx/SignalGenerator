@@ -3891,7 +3891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 240.792 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -3972,7 +3972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 130.81 77.7748 0)
 			(hide yes)
 			(show_name no)
@@ -4028,7 +4028,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f427e54-fa67-46e3-9a57-546707219e2b")
@@ -4623,7 +4623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 130.81 67.6148 0)
 			(hide yes)
 			(show_name no)
@@ -4864,7 +4864,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 35.56 42.418 90)
 			(hide yes)
 			(show_name no)
@@ -5839,7 +5839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 130.81 53.6448 0)
 			(hide yes)
 			(show_name no)
@@ -6098,7 +6098,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 33.02 62.738 90)
 			(hide yes)
 			(show_name no)
@@ -6404,7 +6404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm"
 			(at 36.83 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -7188,7 +7188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 130.81 43.4848 0)
 			(hide yes)
 			(show_name no)
