@@ -1,0 +1,4 @@
+* Diode Spice Model
+* Unofficial LTSpice Wiki Page: http://ltwiki.org/index.php?title=Standard.dio 
+.model D1N4001 D(Is=14.11n N=1.984 Rs=33.89m Ikf=94.81 Xti=3 Eg=1.11 Cjo=25.89p M=.44 Vj=.3245 Fc=.5 Bv=75 Ibv=10u Tt=5.7u)
+.model DCLAMP D(Is=1n N=1.8 Rs=1 Cjo=5p Tt=100n)

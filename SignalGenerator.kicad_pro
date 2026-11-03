@@ -676,6 +676,10 @@
     [
       "09862f4d-ffc6-478c-b540-8c07adda5603",
       "Root"
+    ],
+    [
+      "e815e7b2-2ed1-485e-bf81-dbe722a14a4e",
+      "SquareGenerator"
     ]
   ],
   "text_variables": {},
