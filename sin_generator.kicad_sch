@@ -999,6 +999,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text ".ic V(V_isin)=1m"
+		(exclude_from_sim no)
+		(at 124.206 83.058 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0bb9ef38-596e-4d61-8a67-a14e5b406058")
+	)
+	(text ".param RV_pos=0.8"
+		(exclude_from_sim no)
+		(at 58.928 30.734 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4663a7e0-f42f-4fba-9cd1-ca3190022b50")
+	)
+	(text "1mV起振"
+		(exclude_from_sim no)
+		(at 123.952 80.772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e85c79ca-32ed-46cd-a0d0-3a69ebf872aa")
+	)
 	(junction
 		(at 152.4 111.76)
 		(diameter 0)
@@ -1343,6 +1373,16 @@
 		)
 		(uuid "ed079207-0f53-4454-8eeb-96d8388eaf8c")
 	)
+	(label "V_isin"
+		(at 123.19 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac75c22b-1ae1-468a-b1af-1bee51197673")
+	)
 	(hierarchical_label "RG_{TOP}"
 		(shape passive)
 		(at 82.55 95.25 0)
@@ -1620,7 +1660,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "pos=0.5"
+		(property "Sim.Params" "pos={RV_pos}"
 			(at 130.81 104.14 0)
 			(hide yes)
 			(show_name no)

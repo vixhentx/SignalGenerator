@@ -2206,7 +2206,7 @@
 		)
 		(uuid "d026583d-04f3-4152-820b-040f75d98558")
 	)
-	(text "仿真电路中, 0~200ms, 200~300ms, >300ms 分别连接正弦波, 方波, 三角波"
+	(text "仿真电路中, 0~100ms, 100~200ms, >200ms 分别连接正弦波, 方波, 三角波"
 		(exclude_from_sim no)
 		(at 126.746 98.806 0)
 		(effects
@@ -3161,7 +3161,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "type=\"B\" model=\"v = (time >= 200m && time < 300m) ? 1 : 0\""
+		(property "Sim.Params" "type=\"B\" model=\"v = (time >= 100m && time < 200m) ? 1 : 0\""
 			(at 114.554 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3342,7 +3342,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "type=\"B\" model=\"v = (time < 200m) ? 1 : 0\""
+		(property "Sim.Params" "type=\"B\" model=\"v = (time < 100m) ? 1 : 0\""
 			(at 114.554 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4664,7 +4664,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "type=\"B\" model=\"v = (time >= 300m) ? 1 : 0\""
+		(property "Sim.Params" "type=\"B\" model=\"v = (time >= 200m) ? 1 : 0\""
 			(at 114.554 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
