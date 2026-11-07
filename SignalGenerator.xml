@@ -1,0 +1,1763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/vix_hentx/Documents/KiCAD/SignalGenerator/SignalGenerator.kicad_sch</source>
+    <date>2026-11-07T11:45:37</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SignalGenerator.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/SinGenerator/" tstamps="/e815e7b2-2ed1-485e-bf81-dbe722a14a4e/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sin_generator.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/SquareGenerator/" tstamps="/be9b9bd2-6a2f-4a69-8525-532ac95ae638/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>square_generator.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/TriangleGenerator/" tstamps="/b97e0a78-41c9-4162-a583-db19a6ed593d/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>triangle_gen.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Scaling/" tstamps="/4d3129fc-4657-4104-ac71-55d690376724/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>scaling.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="B1">
+      <value>BSOURCE</value>
+      <footprint>Package_DFN_QFN:Texas_RVA_VQFN-16-1EP_3.5x3.5mm_P0.5mm_EP2.14x2.14mm_ThermalVias</footprint>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Non_linear_Dependent_Sources</datasheet>
+      <description>Arbitrary behavioral voltage or current source for simulation only</description>
+      <fields>
+        <field name="Sim.Device">SPICE</field>
+        <field name="Sim.Params">type="B" model="v = (time &lt; 100m) ? 1 : 0"</field>
+        <field name="Footprint">Package_DFN_QFN:Texas_RVA_VQFN-16-1EP_3.5x3.5mm_P0.5mm_EP2.14x2.14mm_ThermalVias</field>
+        <field name="Datasheet">https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Non_linear_Dependent_Sources</field>
+        <field name="Description">Arbitrary behavioral voltage or current source for simulation only</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="BSOURCE" description="Arbitrary behavioral voltage or current source for simulation only"/>
+      <property name="Sim.Device" value="SPICE"/>
+      <property name="Sim.Params" value="type=&quot;B&quot; model=&quot;v = (time &lt; 100m) ? 1 : 0&quot;"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SignalGenerator.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="simulation dependent"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c2779c5-0e0c-4dbe-8fad-d3a165b8f303</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="B2">
+      <value>BSOURCE</value>
+      <footprint>Package_DFN_QFN:Texas_RVA_VQFN-16-1EP_3.5x3.5mm_P0.5mm_EP2.14x2.14mm_ThermalVias</footprint>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Non_linear_Dependent_Sources</datasheet>
+      <description>Arbitrary behavioral voltage or current source for simulation only</description>
+      <fields>
+        <field name="Sim.Device">SPICE</field>
+        <field name="Sim.Params">type="B" model="v = (time &gt;= 100m &amp;&amp; time &lt; 200m) ? 1 : 0"</field>
+        <field name="Footprint">Package_DFN_QFN:Texas_RVA_VQFN-16-1EP_3.5x3.5mm_P0.5mm_EP2.14x2.14mm_ThermalVias</field>
+        <field name="Datasheet">https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Non_linear_Dependent_Sources</field>
+        <field name="Description">Arbitrary behavioral voltage or current source for simulation only</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="BSOURCE" description="Arbitrary behavioral voltage or current source for simulation only"/>
+      <property name="Sim.Device" value="SPICE"/>
+      <property name="Sim.Params" value="type=&quot;B&quot; model=&quot;v = (time &gt;= 100m &amp;&amp; time &lt; 200m) ? 1 : 0&quot;"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SignalGenerator.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="simulation dependent"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15d4ba55-defa-4896-807d-9404c781c9dd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="B3">
+      <value>BSOURCE</value>
+      <footprint>Package_DFN_QFN:Texas_RVA_VQFN-16-1EP_3.5x3.5mm_P0.5mm_EP2.14x2.14mm_ThermalVias</footprint>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Non_linear_Dependent_Sources</datasheet>
+      <description>Arbitrary behavioral voltage or current source for simulation only</description>
+      <fields>
+        <field name="Sim.Device">SPICE</field>
+        <field name="Sim.Params">type="B" model="v = (time &gt;= 200m) ? 1 : 0"</field>
+        <field name="Footprint">Package_DFN_QFN:Texas_RVA_VQFN-16-1EP_3.5x3.5mm_P0.5mm_EP2.14x2.14mm_ThermalVias</field>
+        <field name="Datasheet">https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Non_linear_Dependent_Sources</field>
+        <field name="Description">Arbitrary behavioral voltage or current source for simulation only</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="BSOURCE" description="Arbitrary behavioral voltage or current source for simulation only"/>
+      <property name="Sim.Device" value="SPICE"/>
+      <property name="Sim.Params" value="type=&quot;B&quot; model=&quot;v = (time &gt;= 200m) ? 1 : 0&quot;"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SignalGenerator.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="simulation dependent"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>930e84ce-6c3a-4d66-8c4b-70f7cdc0741b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SignalGenerator.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23731bb6-454b-4692-a9f6-57bcbb410b3f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="S1">
+      <value>SWITCH</value>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Switches</datasheet>
+      <description>Voltage controlled switch symbol for simulation only</description>
+      <fields>
+        <field name="Sim.Device">SW</field>
+        <field name="Sim.Type">V</field>
+        <field name="Sim.Params">thr=0.5 ron=1 roff=1Meg</field>
+        <field name="Sim.Pins">1=no+ 2=no- 3=ctrl+ 4=ctrl-</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Switches</field>
+        <field name="Description">Voltage controlled switch symbol for simulation only</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="SWITCH" description="Voltage controlled switch symbol for simulation only"/>
+      <property name="Sim.Device" value="SW"/>
+      <property name="Sim.Type" value="V"/>
+      <property name="Sim.Params" value="thr=0.5 ron=1 roff=1Meg"/>
+      <property name="Sim.Pins" value="1=no+ 2=no- 3=ctrl+ 4=ctrl-"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SignalGenerator.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="simulation"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f427e54-fa67-46e3-9a57-546707219e2b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="S2">
+      <value>SWITCH</value>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Switches</datasheet>
+      <description>Voltage controlled switch symbol for simulation only</description>
+      <fields>
+        <field name="Sim.Device">SW</field>
+        <field name="Sim.Type">V</field>
+        <field name="Sim.Params">thr=0.5 ron=1 roff=1Meg</field>
+        <field name="Sim.Pins">1=no+ 2=no- 3=ctrl+ 4=ctrl-</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Switches</field>
+        <field name="Description">Voltage controlled switch symbol for simulation only</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="SWITCH" description="Voltage controlled switch symbol for simulation only"/>
+      <property name="Sim.Device" value="SW"/>
+      <property name="Sim.Type" value="V"/>
+      <property name="Sim.Params" value="thr=0.5 ron=1 roff=1Meg"/>
+      <property name="Sim.Pins" value="1=no+ 2=no- 3=ctrl+ 4=ctrl-"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SignalGenerator.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="simulation"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5701778-570a-4d6f-84e4-5b37e6bdb67e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="S3">
+      <value>SWITCH</value>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Switches</datasheet>
+      <description>Voltage controlled switch symbol for simulation only</description>
+      <fields>
+        <field name="Sim.Device">SW</field>
+        <field name="Sim.Type">V</field>
+        <field name="Sim.Params">thr=0.5 ron=1 roff=1Meg</field>
+        <field name="Sim.Pins">1=no+ 2=no- 3=ctrl+ 4=ctrl-</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Switches</field>
+        <field name="Description">Voltage controlled switch symbol for simulation only</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="SWITCH" description="Voltage controlled switch symbol for simulation only"/>
+      <property name="Sim.Device" value="SW"/>
+      <property name="Sim.Type" value="V"/>
+      <property name="Sim.Params" value="thr=0.5 ron=1 roff=1Meg"/>
+      <property name="Sim.Pins" value="1=no+ 2=no- 3=ctrl+ 4=ctrl-"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SignalGenerator.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="simulation"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61d584b9-576a-4198-8b39-1ec9b782b9ef</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DIP_x04</value>
+      <footprint>Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile</footprint>
+      <description>4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <fields>
+        <field name="Footprint">Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile</field>
+        <field name="Datasheet"/>
+        <field name="Description">4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DIP_x04" description="4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SignalGenerator.kicad_sch"/>
+      <property name="ki_keywords" value="dip switch"/>
+      <property name="ki_fp_filters" value="SW?DIP?x4*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8e69238-cf22-4b12-92d1-5dcac61a1e39</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>MC4558</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/mc4558.pdf</datasheet>
+      <description>Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8</description>
+      <fields>
+        <field name="Sim.Library">Spice/mc4558.lib</field>
+        <field name="Sim.Name">MC4558_DUAL</field>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Pins">1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/mc4558.pdf</field>
+        <field name="Description">Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8</field>
+      </fields>
+      <libsource lib="Local" part="MC4558" description="Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"/>
+      <property name="Sim.Library" value="Spice/mc4558.lib"/>
+      <property name="Sim.Name" value="MC4558_DUAL"/>
+      <property name="Sim.Device" value="SUBCKT"/>
+      <property name="Sim.Pins" value="1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SignalGenerator.kicad_sch"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0bce9f9-879c-468a-bf28-39407352c20e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+        <unit name="C">
+          <pins>
+            <pin num="8"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>MC4558</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/mc4558.pdf</datasheet>
+      <description>Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8</description>
+      <fields>
+        <field name="Sim.Library">Spice/mc4558.lib</field>
+        <field name="Sim.Name">MC4558_DUAL</field>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Pins">1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/mc4558.pdf</field>
+        <field name="Description">Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8</field>
+      </fields>
+      <libsource lib="Local" part="MC4558" description="Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"/>
+      <property name="Sim.Library" value="Spice/mc4558.lib"/>
+      <property name="Sim.Name" value="MC4558_DUAL"/>
+      <property name="Sim.Device" value="SUBCKT"/>
+      <property name="Sim.Pins" value="1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SignalGenerator.kicad_sch"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c7a138d-c6dc-4b84-a3fc-a89a1e849db3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+        <unit name="C">
+          <pins>
+            <pin num="8"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="V1">
+      <value>15</value>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for</datasheet>
+      <description>Voltage source, DC</description>
+      <fields>
+        <field name="Sim.Pins">1=+ 2=-</field>
+        <field name="Sim.Type">DC</field>
+        <field name="Sim.Device">V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for</field>
+        <field name="Description">Voltage source, DC</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="VDC" description="Voltage source, DC"/>
+      <property name="Sim.Pins" value="1=+ 2=-"/>
+      <property name="Sim.Type" value="DC"/>
+      <property name="Sim.Device" value="V"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SignalGenerator.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="simulation"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7695c9d5-d9d2-4ce9-88b4-660307890e66</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="V2">
+      <value>15</value>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for</datasheet>
+      <description>Voltage source, DC</description>
+      <fields>
+        <field name="Sim.Pins">1=+ 2=-</field>
+        <field name="Sim.Type">DC</field>
+        <field name="Sim.Device">V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for</field>
+        <field name="Description">Voltage source, DC</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="VDC" description="Voltage source, DC"/>
+      <property name="Sim.Pins" value="1=+ 2=-"/>
+      <property name="Sim.Type" value="DC"/>
+      <property name="Sim.Device" value="V"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SignalGenerator.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="simulation"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dea3cb07-3420-437d-96e4-fa123a84c170</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C1">
+      <value>{C_sin}</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SinGenerator"/>
+      <property name="Sheetfile" value="sin_generator.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/SinGenerator/" tstamps="/e815e7b2-2ed1-485e-bf81-dbe722a14a4e/"/>
+      <tstamps>6484c839-5c39-4ac2-9e82-09caf2198c31</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>51n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SinGenerator"/>
+      <property name="Sheetfile" value="sin_generator.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/SinGenerator/" tstamps="/e815e7b2-2ed1-485e-bf81-dbe722a14a4e/"/>
+      <tstamps>9dbd363d-af71-42e1-b10c-e2eb94c7c30c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>51n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SinGenerator"/>
+      <property name="Sheetfile" value="sin_generator.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/SinGenerator/" tstamps="/e815e7b2-2ed1-485e-bf81-dbe722a14a4e/"/>
+      <tstamps>7b0fa9cc-1c58-40f3-9533-54d008effe7b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>5.1n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SinGenerator"/>
+      <property name="Sheetfile" value="sin_generator.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/SinGenerator/" tstamps="/e815e7b2-2ed1-485e-bf81-dbe722a14a4e/"/>
+      <tstamps>78a7eb01-d0b4-4144-81db-6f7f96c828b0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>5.1n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SinGenerator"/>
+      <property name="Sheetfile" value="sin_generator.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/SinGenerator/" tstamps="/e815e7b2-2ed1-485e-bf81-dbe722a14a4e/"/>
+      <tstamps>0785d738-b89c-4d96-a14e-b38895dea910</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>{C_sin}</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SinGenerator"/>
+      <property name="Sheetfile" value="sin_generator.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/SinGenerator/" tstamps="/e815e7b2-2ed1-485e-bf81-dbe722a14a4e/"/>
+      <tstamps>fb5adfbe-be6f-4068-a245-d16e3fa0aa1b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>1N4001</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <description>50V 1A General Purpose Rectifier Diode, DO-41</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Sim.Library">Spice/diode.lib</field>
+        <field name="Sim.Name">D1N4001</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+        <field name="Description">50V 1A General Purpose Rectifier Diode, DO-41</field>
+      </fields>
+      <libsource lib="Local" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sim.Library" value="Spice/diode.lib"/>
+      <property name="Sim.Name" value="D1N4001"/>
+      <property name="Sheetname" value="SinGenerator"/>
+      <property name="Sheetfile" value="sin_generator.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*DO?41*"/>
+      <sheetpath names="/SinGenerator/" tstamps="/e815e7b2-2ed1-485e-bf81-dbe722a14a4e/"/>
+      <tstamps>ba180e60-78d8-4ec9-a6aa-e15146650906</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>1N4001</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <description>50V 1A General Purpose Rectifier Diode, DO-41</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Sim.Library">Spice/diode.lib</field>
+        <field name="Sim.Name">D1N4001</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+        <field name="Description">50V 1A General Purpose Rectifier Diode, DO-41</field>
+      </fields>
+      <libsource lib="Local" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sim.Library" value="Spice/diode.lib"/>
+      <property name="Sim.Name" value="D1N4001"/>
+      <property name="Sheetname" value="SinGenerator"/>
+      <property name="Sheetfile" value="sin_generator.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*DO?41*"/>
+      <sheetpath names="/SinGenerator/" tstamps="/e815e7b2-2ed1-485e-bf81-dbe722a14a4e/"/>
+      <tstamps>6468ad1c-1cf6-4d71-835e-9ca15b5f347b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>1.5k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SinGenerator"/>
+      <property name="Sheetfile" value="sin_generator.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SinGenerator/" tstamps="/e815e7b2-2ed1-485e-bf81-dbe722a14a4e/"/>
+      <tstamps>f70b6f08-5c58-4790-a00e-573adc80b1a3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>1.5k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SinGenerator"/>
+      <property name="Sheetfile" value="sin_generator.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SinGenerator/" tstamps="/e815e7b2-2ed1-485e-bf81-dbe722a14a4e/"/>
+      <tstamps>e25b1974-2b7e-4258-80a9-7718928dc942</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SinGenerator"/>
+      <property name="Sheetfile" value="sin_generator.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SinGenerator/" tstamps="/e815e7b2-2ed1-485e-bf81-dbe722a14a4e/"/>
+      <tstamps>51b524be-1b31-48ed-b3de-68d20041e6f0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SinGenerator"/>
+      <property name="Sheetfile" value="sin_generator.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SinGenerator/" tstamps="/e815e7b2-2ed1-485e-bf81-dbe722a14a4e/"/>
+      <tstamps>162aea5c-22f3-44d0-ac38-7dcb6d824b60</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RV1">
+      <value>100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <description>Potentiometer</description>
+      <fields>
+        <field name="Sim.Device">R</field>
+        <field name="Sim.Type">POT</field>
+        <field name="Sim.Pins">1=r0 2=wiper 3=r1</field>
+        <field name="Sim.Params">pos={RV_pos}</field>
+        <field name="Footprint">Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Potentiometer</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sim.Device" value="R"/>
+      <property name="Sim.Type" value="POT"/>
+      <property name="Sim.Pins" value="1=r0 2=wiper 3=r1"/>
+      <property name="Sim.Params" value="pos={RV_pos}"/>
+      <property name="Sheetname" value="SinGenerator"/>
+      <property name="Sheetfile" value="sin_generator.kicad_sch"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
+      <sheetpath names="/SinGenerator/" tstamps="/e815e7b2-2ed1-485e-bf81-dbe722a14a4e/"/>
+      <tstamps>36e19772-a22c-4ac1-9add-b0bbca1ceca9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RV2">
+      <value>150k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK163_Dual_Horizontal</footprint>
+      <description>Dual potentiometer</description>
+      <fields>
+        <field name="Sim.Library">${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp</field>
+        <field name="Sim.Name">pot_dual</field>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Pins">1=r1A 2=wA 3=r0A 4=r1B 5=wB 6=r0B</field>
+        <field name="Sim.Params">Rtot=150k wpos={RV2_pos}</field>
+        <field name="Footprint">Potentiometer_THT:Potentiometer_Alps_RK163_Dual_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Dual potentiometer</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer_Dual" description="Dual potentiometer"/>
+      <property name="Sim.Library" value="${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"/>
+      <property name="Sim.Name" value="pot_dual"/>
+      <property name="Sim.Device" value="SUBCKT"/>
+      <property name="Sim.Pins" value="1=r1A 2=wA 3=r0A 4=r1B 5=wB 6=r0B"/>
+      <property name="Sim.Params" value="Rtot=150k wpos={RV2_pos}"/>
+      <property name="Sheetname" value="SinGenerator"/>
+      <property name="Sheetfile" value="sin_generator.kicad_sch"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
+      <sheetpath names="/SinGenerator/" tstamps="/e815e7b2-2ed1-485e-bf81-dbe722a14a4e/"/>
+      <tstamps>24d9bddd-b8f9-4949-9e64-8d6e625fd5bc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_DIP_x04</value>
+      <footprint>Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile</footprint>
+      <description>4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <fields>
+        <field name="Footprint">Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile</field>
+        <field name="Datasheet"/>
+        <field name="Description">4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DIP_x04" description="4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Sheetname" value="SinGenerator"/>
+      <property name="Sheetfile" value="sin_generator.kicad_sch"/>
+      <property name="ki_keywords" value="dip switch"/>
+      <property name="ki_fp_filters" value="SW?DIP?x4*"/>
+      <sheetpath names="/SinGenerator/" tstamps="/e815e7b2-2ed1-485e-bf81-dbe722a14a4e/"/>
+      <tstamps>7c4f4006-7f65-47db-b1dd-b18c8896ade7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>1N4734</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <description>Zener diode</description>
+      <fields>
+        <field name="Sim.Library">Spice/zener.lib</field>
+        <field name="Sim.Name">DI_1N4734A</field>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Pins">1=1 2=2</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <libsource lib="Local" part="1N4734" description="Zener diode"/>
+      <property name="Sim.Library" value="Spice/zener.lib"/>
+      <property name="Sim.Name" value="DI_1N4734A"/>
+      <property name="Sim.Device" value="SUBCKT"/>
+      <property name="Sim.Pins" value="1=1 2=2"/>
+      <property name="Sheetname" value="SquareGenerator"/>
+      <property name="Sheetfile" value="square_generator.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/SquareGenerator/" tstamps="/be9b9bd2-6a2f-4a69-8525-532ac95ae638/"/>
+      <tstamps>d53f9bd5-3529-4556-b59b-379530337eda</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D4">
+      <value>1N4734</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <description>Zener diode</description>
+      <fields>
+        <field name="Sim.Library">Spice/zener.lib</field>
+        <field name="Sim.Name">DI_1N4734A</field>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Pins">1=1 2=2</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <libsource lib="Local" part="1N4734" description="Zener diode"/>
+      <property name="Sim.Library" value="Spice/zener.lib"/>
+      <property name="Sim.Name" value="DI_1N4734A"/>
+      <property name="Sim.Device" value="SUBCKT"/>
+      <property name="Sim.Pins" value="1=1 2=2"/>
+      <property name="Sheetname" value="SquareGenerator"/>
+      <property name="Sheetfile" value="square_generator.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/SquareGenerator/" tstamps="/be9b9bd2-6a2f-4a69-8525-532ac95ae638/"/>
+      <tstamps>1d92a232-d2b7-43b1-b1db-49d23537c6ee</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SquareGenerator"/>
+      <property name="Sheetfile" value="square_generator.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SquareGenerator/" tstamps="/be9b9bd2-6a2f-4a69-8525-532ac95ae638/"/>
+      <tstamps>016ee304-461c-436e-b530-0ab1f5697df8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SquareGenerator"/>
+      <property name="Sheetfile" value="square_generator.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SquareGenerator/" tstamps="/be9b9bd2-6a2f-4a69-8525-532ac95ae638/"/>
+      <tstamps>79bc3a32-2216-44a9-8538-21051b97e630</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SquareGenerator"/>
+      <property name="Sheetfile" value="square_generator.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SquareGenerator/" tstamps="/be9b9bd2-6a2f-4a69-8525-532ac95ae638/"/>
+      <tstamps>2013f500-cfa7-478b-8c2f-ed2f1457c7fe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>82n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TriangleGenerator"/>
+      <property name="Sheetfile" value="triangle_gen.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/TriangleGenerator/" tstamps="/b97e0a78-41c9-4162-a583-db19a6ed593d/"/>
+      <tstamps>52e9a3d1-a2f4-4a96-829b-d8b038f2d419</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>5.6k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="TriangleGenerator"/>
+      <property name="Sheetfile" value="triangle_gen.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/TriangleGenerator/" tstamps="/b97e0a78-41c9-4162-a583-db19a6ed593d/"/>
+      <tstamps>0c73cfcc-522e-4bab-8577-dffcc177397b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="TriangleGenerator"/>
+      <property name="Sheetfile" value="triangle_gen.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/TriangleGenerator/" tstamps="/b97e0a78-41c9-4162-a583-db19a6ed593d/"/>
+      <tstamps>efff9712-cc84-4d93-bc02-aa919dbc67b6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="TriangleGenerator"/>
+      <property name="Sheetfile" value="triangle_gen.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/TriangleGenerator/" tstamps="/b97e0a78-41c9-4162-a583-db19a6ed593d/"/>
+      <tstamps>6dec60e1-ca72-47d5-befa-6026e907ccc2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="TriangleGenerator"/>
+      <property name="Sheetfile" value="triangle_gen.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/TriangleGenerator/" tstamps="/b97e0a78-41c9-4162-a583-db19a6ed593d/"/>
+      <tstamps>16f6d93f-8cf8-465b-a8bb-42fef7b68bd2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>5.6k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Scaling"/>
+      <property name="Sheetfile" value="scaling.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Scaling/" tstamps="/4d3129fc-4657-4104-ac71-55d690376724/"/>
+      <tstamps>5fb43c3b-460b-4f22-ab65-992d035388e0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Scaling"/>
+      <property name="Sheetfile" value="scaling.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Scaling/" tstamps="/4d3129fc-4657-4104-ac71-55d690376724/"/>
+      <tstamps>f51cd363-3d36-40a8-841f-d4af594b8bb1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Scaling"/>
+      <property name="Sheetfile" value="scaling.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Scaling/" tstamps="/4d3129fc-4657-4104-ac71-55d690376724/"/>
+      <tstamps>a7d3cc57-aecc-4ffe-9b10-ac3abe58976b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <description>Variable resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Variable resistor</field>
+      </fields>
+      <libsource lib="Device" part="R_Variable" description="Variable resistor"/>
+      <property name="Sheetname" value="Scaling"/>
+      <property name="Sheetfile" value="scaling.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor variable potentiometer rheostat"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Scaling/" tstamps="/4d3129fc-4657-4104-ac71-55d690376724/"/>
+      <tstamps>fdbf870a-ff55-4797-a07d-afe9aa9af287</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Potentiometer</field>
+        <field name="Sim.Device">R</field>
+        <field name="Sim.Type">POT</field>
+        <field name="Sim.Pins">1=r0 2=wiper 3=r1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer_Dual">
+      <description>Dual potentiometer</description>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer_Dual</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Dual potentiometer</field>
+        <field name="Sim.Library">${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp</field>
+        <field name="Sim.Name">pot_dual</field>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Pins">1=r1A 2=wA 3=r0A 4=r1B 5=wB 6=r0B</field>
+        <field name="Sim.Params">Rtot=1 wpos=0.4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Variable">
+      <description>Variable resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Variable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Variable resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="1N4001">
+      <description>50V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4001</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+        <field name="Description">50V 1A General Purpose Rectifier Diode, DO-41</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Sim.Library">Spice/diode.lib</field>
+        <field name="Sim.Name">D1N4001</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="1N4734">
+      <description>Zener diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4734</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Zener diode</field>
+        <field name="Sim.Library">Spice/zener.lib</field>
+        <field name="Sim.Name">DI_1N4734A</field>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Pins">1=1 2=2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="MC4558">
+      <description>Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8</description>
+      <docs>https://www.st.com/resource/en/datasheet/mc4558.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC4558</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/mc4558.pdf</field>
+        <field name="Description">Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8</field>
+        <field name="Sim.Library">Spice/mc4558.lib</field>
+        <field name="Sim.Name">MC4558_DUAL</field>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Pins">1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Simulation_SPICE" part="BSOURCE">
+      <description>Arbitrary behavioral voltage or current source for simulation only</description>
+      <docs>https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Non_linear_Dependent_Sources</docs>
+      <fields>
+        <field name="Reference">B</field>
+        <field name="Value">BSOURCE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Non_linear_Dependent_Sources</field>
+        <field name="Description">Arbitrary behavioral voltage or current source for simulation only</field>
+        <field name="Sim.Device">SPICE</field>
+        <field name="Sim.Params">type="B" model="v=1"</field>
+      </fields>
+      <pins>
+        <pin num="1" name="N+" type="passive"/>
+        <pin num="2" name="N-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Simulation_SPICE" part="SWITCH">
+      <description>Voltage controlled switch symbol for simulation only</description>
+      <docs>https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Switches</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">SWITCH</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Switches</field>
+        <field name="Description">Voltage controlled switch symbol for simulation only</field>
+        <field name="Sim.Device">SW</field>
+        <field name="Sim.Type">V</field>
+        <field name="Sim.Params">thr=0 ron=1</field>
+        <field name="Sim.Pins">1=no+ 2=no- 3=ctrl+ 4=ctrl-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="N+" type="passive"/>
+        <pin num="2" name="N-" type="passive"/>
+        <pin num="3" name="C+" type="input"/>
+        <pin num="4" name="C-" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Simulation_SPICE" part="VDC">
+      <description>Voltage source, DC</description>
+      <docs>https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for</docs>
+      <fields>
+        <field name="Reference">V</field>
+        <field name="Value">1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for</field>
+        <field name="Description">Voltage source, DC</field>
+        <field name="Sim.Pins">1=+ 2=-</field>
+        <field name="Sim.Type">DC</field>
+        <field name="Sim.Device">V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x04">
+      <description>4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <footprints>
+        <fp>SW?DIP?x4*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="Local">
+      <uri>${KIPRJMOD}/Local.kicad_sym</uri>
+    </library>
+    <library logical="Simulation_SPICE">
+      <uri>${KICAD10_SYMBOL_DIR}/Simulation_SPICE.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>${KICAD10_SYMBOL_DIR}/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+15V" class="Default">
+      <node ref="U1" pin="8" pinfunction="V+_8" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="V+_8" pintype="power_in"/>
+      <node ref="V1" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="-15V" class="Default">
+      <node ref="U1" pin="4" pinfunction="V-_4" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="V-_4" pintype="power_in"/>
+      <node ref="V2" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/Scaling/V_{i}" class="Default">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="S1" pin="2" pinfunction="N-_2" pintype="passive"/>
+      <node ref="S2" pin="2" pinfunction="N-_2" pintype="passive"/>
+      <node ref="S3" pin="2" pinfunction="N-_2" pintype="passive"/>
+      <node ref="SW1" pin="5" pintype="passive"/>
+      <node ref="SW1" pin="6" pintype="passive"/>
+      <node ref="SW1" pin="7" pintype="passive"/>
+      <node ref="SW1" pin="8" pintype="passive"/>
+    </net>
+    <net code="6" name="/SinGenerator/CF1_A" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="RV2" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+_3" pintype="input"/>
+    </net>
+    <net code="7" name="/SinGenerator/CF2_A" class="Default">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="3" pintype="passive"/>
+      <node ref="SW2" pin="4" pintype="passive"/>
+    </net>
+    <net code="8" name="/V_{out}" class="Default">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/V_{sin}" class="Default">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="S1" pin="1" pinfunction="N+_1" pintype="passive"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="/V_{square}" class="Default">
+      <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="S2" pin="1" pinfunction="N+_1" pintype="passive"/>
+      <node ref="SW1" pin="3" pintype="passive"/>
+    </net>
+    <net code="11" name="/V_{tri}" class="Default">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="S3" pin="1" pinfunction="N+_1" pintype="passive"/>
+      <node ref="SW1" pin="4" pintype="passive"/>
+    </net>
+    <net code="12" name="GND" class="Default">
+      <node ref="B1" pin="2" pinfunction="N-_2" pintype="passive"/>
+      <node ref="B2" pin="2" pinfunction="N-_2" pintype="passive"/>
+      <node ref="B3" pin="2" pinfunction="N-_2" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="RV2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="S1" pin="4" pinfunction="C-_4" pintype="input"/>
+      <node ref="S2" pin="4" pinfunction="C-_4" pintype="input"/>
+      <node ref="S3" pin="4" pinfunction="C-_4" pintype="input"/>
+      <node ref="SW2" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pintype="passive"/>
+      <node ref="V1" pin="2" pintype="passive"/>
+      <node ref="V2" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(B1-N+)" class="Default">
+      <node ref="B1" pin="1" pinfunction="N+_1" pintype="passive"/>
+      <node ref="S1" pin="3" pinfunction="C+_3" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(B2-N+)" class="Default">
+      <node ref="B2" pin="1" pinfunction="N+_1" pintype="passive"/>
+      <node ref="S2" pin="3" pinfunction="C+_3" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(B3-N+)" class="Default">
+      <node ref="B3" pin="1" pinfunction="N+_1" pintype="passive"/>
+      <node ref="S3" pin="3" pinfunction="C+_3" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(C3-Pad1)" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="7" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(C4-Pad1)" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="5" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(C5-Pad1)" class="Default">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="8" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(C6-Pad1)" class="Default">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="6" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D1-K)" class="Default">
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3_3" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D3-K)" class="Default">
+      <node ref="D3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K_1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(R1-Pad1)" class="Default">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="RV2" pin="6" pinfunction="6_6" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(R2-Pad1)" class="Default">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3_3" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(R3-Pad2)" class="Default">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(R6-Pad1)" class="Default">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="output"/>
+    </net>
+    <net code="26" name="Net-(R9-Pad1)" class="Default">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pintype="output"/>
+    </net>
+    <net code="27" name="Net-(R12-Pad1)" class="Default">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="output"/>
+    </net>
+    <net code="28" name="Net-(R15-Pad1)" class="Default">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pintype="output"/>
+    </net>
+    <net code="29" name="Net-(U1A--)" class="Default">
+      <node ref="RV1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="-_2" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(U1B-+)" class="Default">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="+_5" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(U1B--)" class="Default">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="-_6" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(U2A-+)" class="Default">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="+_3" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(U2A--)" class="Default">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="-_2" pintype="input"/>
+    </net>
+    <net code="34" name="Net-(U2B-+)" class="Default">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="+_5" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(U2B--)" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="-_6" pintype="input"/>
+    </net>
+    <net code="36" name="unconnected-(RV2-Pad1)" class="Default">
+      <node ref="RV2" pin="1" pinfunction="1_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(RV2-Pad4)" class="Default">
+      <node ref="RV2" pin="4" pinfunction="4_4" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
