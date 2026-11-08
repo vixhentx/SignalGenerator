@@ -790,6 +790,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "V_{O} = V_{i} RV_{3} / R_{11}"
+		(exclude_from_sim no)
+		(at 177.038 94.488 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fc5386f5-46a1-45f9-a50d-0b104fdbbf5c")
+	)
 	(junction
 		(at 130.81 100.33)
 		(diameter 0)
