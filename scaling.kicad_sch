@@ -790,6 +790,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text ".param RV3_Pos=0.5"
+		(exclude_from_sim no)
+		(at 153.162 119.888 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a30a7197-eb38-4876-8963-ba442fae3024")
+	)
 	(text "V_{O} = V_{i} RV_{3} / R_{11}"
 		(exclude_from_sim no)
 		(at 177.038 94.488 0)
@@ -1070,7 +1080,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Potentiometer"
+		(property "Value" "20k"
 			(at 152.4 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1114,6 +1124,17 @@
 			)
 		)
 		(property "Sim.Device" "R"
+			(at 152.4 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "r=20k pos={RV3_Pos}"
 			(at 152.4 110.49 0)
 			(hide yes)
 			(show_name no)
