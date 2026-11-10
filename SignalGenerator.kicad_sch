@@ -5,6 +5,129 @@
 	(uuid "09862f4d-ffc6-478c-b540-8c07adda5603")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1967,6 +2090,16 @@
 		)
 		(uuid "af2b4b88-02b3-4c21-99cb-1942843e614d")
 	)
+	(text ".options chgtol=1e-11 abstol=10p reltol=0.01 vntol=10u"
+		(exclude_from_sim no)
+		(at 46.99 184.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "30b439a0-6e85-4aa3-9629-f93bf59d10f1")
+	)
 	(text "单刀三掷开关用于实际电路"
 		(exclude_from_sim no)
 		(at 81.026 90.932 0)
@@ -1986,6 +2119,16 @@
 			)
 		)
 		(uuid "ed2689a0-ca74-46f1-8021-371d11c379dc")
+	)
+	(text ".options method=gear"
+		(exclude_from_sim no)
+		(at 29.21 187.706 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f7b719b0-f8d7-4153-a9d2-ea0d48da4b0e")
 	)
 	(junction
 		(at 92.71 104.14)
@@ -2145,6 +2288,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 121.92) (xy 31.75 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80335215-3739-495f-88ea-1130fc031e37")
+	)
+	(wire
+		(pts
 			(xy 167.64 157.48) (xy 167.64 140.97)
 		)
 		(stroke
@@ -2212,6 +2365,16 @@
 			(type default)
 		)
 		(uuid "a57e5a8b-7384-4a9d-b240-c533e0083b01")
+	)
+	(wire
+		(pts
+			(xy 43.18 121.92) (xy 43.18 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc21693-c670-49c4-af58-1bcad32effa4")
 	)
 	(wire
 		(pts
@@ -2325,7 +2488,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 101.6) (xy 200.66 101.6)
+			(xy 196.85 101.6) (xy 207.01 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2393,7 +2556,17 @@
 		)
 		(uuid "f9c263ca-84fb-4b64-bb07-93c35d30974c")
 	)
-	(label "V_{square}"
+	(wire
+		(pts
+			(xy 20.32 121.92) (xy 20.32 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa572641-cbfe-44d4-8720-c6df5316c602")
+	)
+	(label "V_square"
 		(at 128.27 157.48 0)
 		(effects
 			(font
@@ -2403,7 +2576,7 @@
 		)
 		(uuid "1d5c4bd4-8975-4c58-ab0d-469494cc4027")
 	)
-	(label "V_{tri}"
+	(label "V_tri"
 		(at 71.12 109.22 0)
 		(effects
 			(font
@@ -2413,7 +2586,7 @@
 		)
 		(uuid "3e1527a8-8ebb-4116-bbda-7f2a7cd298bc")
 	)
-	(label "V_{out}"
+	(label "V_out"
 		(at 200.66 101.6 0)
 		(effects
 			(font
@@ -2423,17 +2596,7 @@
 		)
 		(uuid "407465a8-875b-441b-9e7d-03a142d57e1d")
 	)
-	(label ".options chgtol=1e-11 abstol=10p reltol=0.01 vntol=10u"
-		(at 19.05 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f8e3fb6-97a5-4a51-b50c-98d6a1ad9870")
-	)
-	(label "V_{sin}"
+	(label "V_sin"
 		(at 129.54 140.97 0)
 		(effects
 			(font
@@ -2443,7 +2606,7 @@
 		)
 		(uuid "6919c92e-88b6-478b-b016-986fc716f792")
 	)
-	(label "V_{sin}"
+	(label "V_sin"
 		(at 72.39 40.64 0)
 		(effects
 			(font
@@ -2453,7 +2616,7 @@
 		)
 		(uuid "98a80d49-905a-40d5-a15e-6f4219ebad73")
 	)
-	(label "V_{tri}"
+	(label "V_tri"
 		(at 129.54 172.72 0)
 		(effects
 			(font
@@ -2463,17 +2626,7 @@
 		)
 		(uuid "a6d01cb9-6102-4afa-911f-f314347fd694")
 	)
-	(label ".options method=gear"
-		(at 19.05 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b066468f-5e4b-42af-8f33-2e8227016728")
-	)
-	(label "V_{sin}"
+	(label "V_sin"
 		(at 71.12 104.14 0)
 		(effects
 			(font
@@ -2483,7 +2636,7 @@
 		)
 		(uuid "b24398df-710b-413f-85a7-27205b6e2b63")
 	)
-	(label "V_{square}"
+	(label "V_square"
 		(at 113.03 40.64 0)
 		(effects
 			(font
@@ -2493,7 +2646,7 @@
 		)
 		(uuid "b373e033-466e-40d8-982c-0fb8d0510410")
 	)
-	(label "V_{tri}"
+	(label "V_tri"
 		(at 153.67 40.64 0)
 		(effects
 			(font
@@ -2503,7 +2656,7 @@
 		)
 		(uuid "bc760ff4-7fa8-4e09-aeec-5f97486167b6")
 	)
-	(label "V_{square}"
+	(label "V_square"
 		(at 71.12 106.68 0)
 		(effects
 			(font
@@ -2512,6 +2665,84 @@
 			(justify left bottom)
 		)
 		(uuid "bcee1819-e4e7-41be-8481-6eeabf8835a7")
+	)
+	(symbol
+		(lib_id "power:-15V")
+		(at 31.75 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03891bd3-3fef-4e9a-b382-80ea1fdf192c")
+		(property "Reference" "#PWR023"
+			(at 31.75 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-15V"
+			(at 31.75 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+			(at 31.75 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 31.75 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a908c6c-328d-4227-923b-792f0b42e2cd")
+		)
+		(instances
+			(project "SignalGenerator"
+				(path "/09862f4d-ffc6-478c-b540-8c07adda5603"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:SWITCH")
@@ -2638,6 +2869,85 @@
 			(project "SignalGenerator"
 				(path "/09862f4d-ffc6-478c-b540-8c07adda5603"
 					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 43.18 130.81 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "155130c6-8337-4242-a126-3248713c8fe1")
+		(property "Reference" "TP8"
+			(at 45.72 132.8419 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 45.72 135.3819 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 38.1 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 43.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9f0c137-b1a1-45a9-a4b4-1a1d40aa9eaa")
+		)
+		(instances
+			(project "SignalGenerator"
+				(path "/09862f4d-ffc6-478c-b540-8c07adda5603"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -3477,6 +3787,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 20.32 130.81 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55c7b36d-86af-400c-ae42-f46c697c87ea")
+		(property "Reference" "TP6"
+			(at 22.86 132.8419 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 22.86 135.3819 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 15.24 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 15.24 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 20.32 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95dea88c-e371-4200-8e61-c940b0cd6333")
+		)
+		(instances
+			(project "SignalGenerator"
+				(path "/09862f4d-ffc6-478c-b540-8c07adda5603"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:SWITCH")
 		(at 140.97 172.72 90)
 		(mirror x)
@@ -3880,6 +4269,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 31.75 130.81 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "905e3133-18bb-488b-b7f1-52fd6596ae52")
+		(property "Reference" "TP7"
+			(at 34.29 132.8419 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 34.29 135.3819 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 26.67 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 31.75 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7b940fa-f17d-40bb-92ad-b7551e569550")
+		)
+		(instances
+			(project "SignalGenerator"
+				(path "/09862f4d-ffc6-478c-b540-8c07adda5603"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:BSOURCE")
 		(at 102.87 167.64 270)
 		(mirror x)
@@ -4199,6 +4667,163 @@
 			(project "SignalGenerator"
 				(path "/09862f4d-ffc6-478c-b540-8c07adda5603"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 207.01 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a23c8bbf-1b93-4c06-ac97-e32b0ff7a557")
+		(property "Reference" "TP5"
+			(at 209.55 97.0279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 209.55 99.5679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 212.09 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 207.01 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c53c456-213f-41f7-9176-064506054912")
+		)
+		(instances
+			(project "SignalGenerator"
+				(path "/09862f4d-ffc6-478c-b540-8c07adda5603"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 20.32 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c038ec38-fae5-428e-8458-ecbbff24bb69")
+		(property "Reference" "#PWR021"
+			(at 20.32 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+15V"
+			(at 20.32 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 20.32 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8eb67568-62a6-4214-9ff6-fc219fa2d847")
+		)
+		(instances
+			(project "SignalGenerator"
+				(path "/09862f4d-ffc6-478c-b540-8c07adda5603"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4733,6 +5358,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 43.18 121.92 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d534e813-89f9-480b-ab67-68cf5a389aac")
+		(property "Reference" "#PWR022"
+			(at 43.18 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+			(at 43.18 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8403150-c997-4c7d-814c-9f103145d384")
+		)
+		(instances
+			(project "SignalGenerator"
+				(path "/09862f4d-ffc6-478c-b540-8c07adda5603"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:VDC")
 		(at 33.02 157.48 0)
 		(unit 1)
@@ -5122,7 +5825,7 @@
 				(justify left top)
 			)
 		)
-		(pin "V_{i}" input
+		(pin "V_i" input
 			(at 179.07 101.6 180)
 			(uuid "ee288a08-1605-4025-be6f-00310f1b3355")
 			(effects
@@ -5132,7 +5835,7 @@
 				(justify left)
 			)
 		)
-		(pin "V_{o}" output
+		(pin "V_o" output
 			(at 196.85 101.6 0)
 			(uuid "8d69321d-67e2-4e49-930d-97c21033d1aa")
 			(effects
@@ -5188,7 +5891,7 @@
 				(justify left top)
 			)
 		)
-		(pin "V_{i}" input
+		(pin "V_i" input
 			(at 129.54 40.64 180)
 			(uuid "234d9f53-680f-4a3c-a4ff-7218bef10c24")
 			(effects
@@ -5198,7 +5901,7 @@
 				(justify left)
 			)
 		)
-		(pin "V_{o}" output
+		(pin "V_o" output
 			(at 147.32 40.64 0)
 			(uuid "63ec3ced-ac63-4232-95d1-222a5ee1f06c")
 			(effects
@@ -5254,7 +5957,7 @@
 				(justify left top)
 			)
 		)
-		(pin "V_{i}" input
+		(pin "V_i" input
 			(at 91.44 40.64 180)
 			(uuid "3a3570b3-e1c5-4465-93bd-2d58b6302ccd")
 			(effects
@@ -5264,7 +5967,7 @@
 				(justify left)
 			)
 		)
-		(pin "V_{o}" output
+		(pin "V_o" output
 			(at 109.22 40.64 0)
 			(uuid "6076ebab-c388-4677-97e6-ddebf66fce45")
 			(effects
@@ -5320,7 +6023,7 @@
 				(justify left top)
 			)
 		)
-		(pin "V_{o}" output
+		(pin "V_o" output
 			(at 59.69 40.64 0)
 			(uuid "4f5c28e9-2fde-4e23-901d-83f1f035b07f")
 			(effects
