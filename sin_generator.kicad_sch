@@ -3464,7 +3464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Horizontal"
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3224W_Vertical"
 			(at 130.81 104.14 0)
 			(hide yes)
 			(show_name no)
