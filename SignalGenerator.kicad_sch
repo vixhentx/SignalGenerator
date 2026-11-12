@@ -1916,6 +1916,26 @@
 		)
 		(uuid "af2b4b88-02b3-4c21-99cb-1942843e614d")
 	)
+	(text ".options chgtol=1e-11 abstol=10p reltol=0.01 vntol=10u"
+		(exclude_from_sim no)
+		(at 47.752 188.722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "59b8ec96-7208-4ccc-abe4-55efff3f5c78")
+	)
+	(text ".options method=gear"
+		(exclude_from_sim no)
+		(at 29.972 191.008 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a5ede52b-baed-4125-a850-511978c67bb8")
+	)
 	(text "单刀三掷开关用于实际电路"
 		(exclude_from_sim no)
 		(at 79.248 82.804 0)
@@ -2404,16 +2424,6 @@
 		)
 		(uuid "407465a8-875b-441b-9e7d-03a142d57e1d")
 	)
-	(label ".options chgtol=1e-11 abstol=10p reltol=0.01 vntol=10u"
-		(at 19.05 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f8e3fb6-97a5-4a51-b50c-98d6a1ad9870")
-	)
 	(label "V_{sin}"
 		(at 101.6 97.79 0)
 		(effects
@@ -2453,16 +2463,6 @@
 			(justify left bottom)
 		)
 		(uuid "a6d01cb9-6102-4afa-911f-f314347fd694")
-	)
-	(label ".options method=gear"
-		(at 19.05 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b066468f-5e4b-42af-8f33-2e8227016728")
 	)
 	(label "V_{square}"
 		(at 113.03 40.64 0)
@@ -2639,7 +2639,7 @@
 		(at 41.91 125.73 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -4774,7 +4774,7 @@
 		(at 52.07 125.73 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -4856,7 +4856,7 @@
 		(at 31.75 125.73 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -5368,7 +5368,7 @@
 		(at 21.59 125.73 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
