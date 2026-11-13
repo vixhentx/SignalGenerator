@@ -114,7 +114,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -473,7 +473,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "error",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -717,7 +717,7 @@
         "uuid": "09862f4d-ffc6-478c-b540-8c07adda5603"
       }
     ],
-    "used_designators": "V1-3,#PWR1-30,SW1-4,RV1-3,D1-4,C1-7,R1-17,TP1-9,U1-2,S1-3,B1-3",
+    "used_designators": "#FLG1-3,V1-3,#PWR1-30,SW1-4,RV1-3,D1-4,C1-7,R1-17,TP1-9,U1-2,S1-3,B1-3",
     "variants": []
   },
   "sheets": [
